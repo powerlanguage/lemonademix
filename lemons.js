@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var lemons = [
-        // put names here
-    ];
+
+    // Add your names here
+    // var lemons = [];
 
     $('button').on('click', checkResults);
 
