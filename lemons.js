@@ -7,6 +7,7 @@ $(document).ready(function(){
 
     var select = generateSelect(lemons);
     var randomLemons = shuffle(lemons);
+    $('#results').text(`0/${lemons.length}`)
 
     randomLemons.forEach(function(lemon){
         $("#container").append(generateLemon(lemon));
